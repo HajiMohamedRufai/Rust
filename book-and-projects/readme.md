@@ -7,6 +7,9 @@ The run the executable :
 ## creating project using cargo (normal)
 **crates** - is what we call packages of rust code
 
+### create rust project free of git (version control system, vcs)
+cargo new {project} --vcs none
+
 ## macro
 println! is a macro not a function, println is a function
 
@@ -20,7 +23,3 @@ In Rust compiling and running are separate steps:
 A mutable variable is a variable that can change its value after it is created. An immutable variable is a variable that cannot change its value after it is created. 
 
 By default cargo variables are immutable
-
-## Guessing-game code
- td::io::stdin
-
