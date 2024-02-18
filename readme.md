@@ -6,5 +6,5 @@
 - build documentation for your project with **cargo doc**
 - publish a library to crates.io with **cargo publish**
 
-## create rust projects free of version control system (vcs) ie git etc
+## create rust projects free of version control system (vcs) ie git 
 cargo new my_project --vcs none
